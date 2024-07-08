@@ -1,0 +1,6 @@
+- name: Deploy Nginx and custom index.html
+  hosts: webservers
+  become: yes
+  roles:
+    - nginx
+
